@@ -5,3 +5,5 @@ declare module "@mui/material/styles" {
   interface CustomThemeOptions extends ThemeOptions {}
   export function createTheme(options?: CustomThemeOptions): CustomTheme;
 }
+
+const test = test;
