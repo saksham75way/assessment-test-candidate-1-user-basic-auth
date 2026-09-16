@@ -84,6 +84,13 @@ dcvdscvoudsbgcvdksbv
         currentPassword?: string | null;
       }
     >({
+
+      s
+      FileSystemdf
+      sdfds
+      f
+      SVGDefsElementdsf
+      DataTransferdsfdsfds
       query: (body) => {
         return { url: `/users/change-password`, method: "POST", body };
       },
