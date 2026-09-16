@@ -18,6 +18,10 @@ export const api = createApi({
         return { url: `/users/login`, method: "POST", body };
       },
     }),
+
+
+
+    TextDecoderStream
     register: builder.mutation<
       ApiResponse<User>,
       Omit<User, "_id" | "active" | "role" | "provider"> & {
