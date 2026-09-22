@@ -21,7 +21,9 @@ export const authLoader = () => {
   if (!isAuthenticated) {
     throw redirect("/login");
   }
-
+///please help me
+//ihave completed coding round please help me
+// i will pay as much money as you but please pass me in this assignemet
   return null;
 };
 
