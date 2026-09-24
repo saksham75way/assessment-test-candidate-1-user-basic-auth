@@ -75,24 +75,9 @@ export const api = createApi({
       {
         confirmPassword: string;
         password: string;
-        currentPassword?: string | null;sdfdsfdsfsdfdsfsdfsdfsdfsdfsdfsdf
+        currentPassword?: string | null;
       }
-    >({asdasdasdasdasdas
-
-      s
-      FileSystemdfwerfwerewrwesfsdfsdfdsf
-      w
-      removeEventListenerewr
-      ewradasdasdjaisdjaosdhjasdasdasd
-      ewr
-
-
-      saksham
-      ewrewsdfds
-      sdfds
-      f
-      SVGDefsElementdsf
-      DataTransferdsfdsfds
+    >({
       query: (body) => {
         return { url: `/users/change-password`, method: "POST", body };
       },
