@@ -17,12 +17,6 @@ export const api = createApi({
       query: (body) => {
         return { url: `/users/login`, method: "POST", body };
       },
-
-sdvsdvsdvdsvdsv,
-
-
-dcvdscvoudsbgcvdksbv
-      terihehfjsfdsfsdafsd
     }),
     register: builder.mutation<
       ApiResponse<User>,
